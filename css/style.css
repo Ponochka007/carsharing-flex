@@ -518,6 +518,18 @@ body    {
         top: 9px;
 
     }
+
+}
+@media (max-width: 525px) {
+    .top__items{
+        flex-wrap: wrap;
+    }
+    .top__item {
+        margin: 20px;
+    }
+    .top__slider-text{
+        padding-right: 0;
+    }
 }
 
 
